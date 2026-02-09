@@ -114,7 +114,6 @@
       color: var(--accent);
     }
 
-    /* SKILLS */
     #skills { margin-top: 3rem; }
 
     .skill-card {
@@ -173,21 +172,39 @@
       left: 0;
       color: var(--accent);
     }
+    #past_working_exp  {
+      margin-top: 30px;
+    }
 
-    /* EXPERIENCE */
-    #past_working_exp { margin-top: 3rem; }
+    #past_working_exp h3 {
+      padding-left: 0.75rem;
+      border-left: 3px solid var(--accent);
+    }
+
+    #past_working_exp p {
+      font-size: 0.9rem;
+      margin-left: 0.75rem;
+    }
 
     #past_working_exp ul {
-      margin-left: 1rem;
-      margin-top: 0.5rem;
+      list-style: none;
+      margin-left: 0.75rem;
+      margin-top: 0.6rem;
     }
 
     #past_working_exp li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 0.45rem;
       color: var(--muted);
-      margin-bottom: 0.4rem;
     }
 
-    /* FOOTER */
+    #past_working_exp li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+
     #footer {
       margin-top: 4rem;
       padding-top: 2rem;
