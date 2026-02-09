@@ -1,188 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/x-icon" href="logo.png"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>XYZ | Portfolio</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 <body>
-<div id="main">
+  <div id="main">
+    <section class="hero">
+      <h2>Hi, I'm XYZ 👋</h2>
+      <p>Backend-focused developer with a strong foundation in system administration and computer networking.</p>
+      <p><strong><i class="fa-solid fa-graduation-cap"></i> Status:</strong> IT student at DEIK</p>
+      <p><strong><i class="fa-solid fa-location-dot"></i> Location:</strong> Debrecen, Hungary</p>
 
-  <div class="hero">
-    <h2>Hi, I'm XYZ 👋</h2>
-    <p>Backend-focused developer with a strong foundation in system administration and computer networking.</p>
-    <p><strong><i class="fa-solid fa-graduation-cap"></i> Status:</strong> IT student at DEIK</p>
-    <p><strong><i class="fa-solid fa-location-dot"></i> Location:</strong> Debrecen, Hungary</p>
+      <div class="contact-bar">
+        <a class="btn" href="https://github.com/WattoX00" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+        <a class="btn" href="mailto:zoltan.korsch@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/zoltan-korsch-2115193ab/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
 
-    <div class="contact-bar">
-      <a class="btn" href="https://github.com/WattoX00" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
-      <a class="btn" href="mailto:your@email.com"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a class="btn" href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-    </div>
+      <div class="badges">
+        <span class="badge">Backend</span>
+        <span class="badge">Python</span>
+        <span class="badge">FastAPI</span>
+        <span class="badge">Linux</span>
+        <span class="badge">Networking</span>
+      </div>
+    </section>
 
-    <div class="badges">
-      <span class="badge">Backend</span>
-      <span class="badge">Python</span>
-      <span class="badge">FastAPI</span>
-      <span class="badge">Linux</span>
-      <span class="badge">Networking</span>
-    </div>
-  </div>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="box">
+          <h3>Restaurant API</h3>
+          <span>Backend API for restaurant management</span>
+          <a class="btn" href="https://github.com/WattoX00/restaurantapi" target="_blank">GitHub</a>
+          <div class="tech"><i class="fa-brands fa-python"></i> Python · FastAPI · <i class="fa-brands fa-js"></i> JavaScript</div>
+        </div>
 
-  <h2>Projects</h2>
-  <div class="container">
-    <div class="box">
-      <h3>Restaurant API</h3>
-      <span>Backend API for restaurant management</span>
-      <a class="btn" href="https://github.com/WattoX00/restaurantapi" target="_blank">GitHub</a>
-      <div class="tech"><i class="fa-brands fa-python"></i> Python · FastAPI · <i class="fa-brands fa-js"></i> JavaScript</div>
-    </div>
+        <div class="box">
+          <h3><i class="fa-brands fa-linux"></i> Linux Setup</h3>
+          <span>Arch Linux & custom dwm configuration</span>
+          <a class="btn" href="https://github.com/WattoX00/arch-setup" target="_blank">GitHub</a>
+          <div class="tech"><i class="fa-solid fa-terminal"></i> Bash · <i class="fa-solid fa-c"></i></div>
+        </div>
 
-    <div class="box">
-      <h3><i class="fa-brands fa-linux"></i> Linux Setup</h3>
-      <span>Arch Linux & custom dwm configuration</span>
-      <a class="btn" href="https://github.com/WattoX00/arch-setup" target="_blank">GitHub</a>
-      <div class="tech"><i class="fa-solid fa-terminal"></i> Bash · <i class="fa-solid fa-c"></i></div>
-    </div>
-      <div class="box">
-      <h3>Todol</h3>
-      <span>CLI-based to-do list application</span>
-      <a class="btn" href="https://github.com/WattoX00/todol" target="_blank">GitHub</a>
-      <div class="tech"><i class="fa-brands fa-python"></i> Python</div>
-    </div>
- </div>
+        <div class="box">
+          <h3>Todol</h3>
+          <span>CLI-based to-do list application</span>
+          <a class="btn" href="https://github.com/WattoX00/todol" target="_blank">GitHub</a>
+          <div class="tech"><i class="fa-brands fa-python"></i> Python</div>
+        </div>
+      </div>
+    </section>
 
+    <section id="skills">
+      <h2>Skills</h2>
 
-<div id="skills">
-  <h2>Skills</h2>
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-server"></i> Systems & Networking</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>IT systems administration & network configuration (formal vocational training)</li>
+            <li>Enterprise VoIP systems (<a href="#past_working_exp">see more</a>)</li>
+            <li>Linux systems</li>
+          </ul>
+        </div>
+      </div>
 
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-server"></i> Systems & Networking</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-code"></i> Programming</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Python</li>
+            <li>JavaScript & Node.js</li>
+            <li>REST APIs</li>
+            <li>Bash script</li>
+            <li>MySQL</li>
+            <li>HTML & CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-toolbox"></i> Tools & Environment</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Neovim</li>
+            <li>Git & GitHub</li>
+            <li>Microsoft 365</li>
+            <li>dbForge</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-language"></i> Languages</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Hungarian – native</li>
+            <li>English – fluent</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-graduation-cap"></i> Education</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>IT Systems & Application Operator Technician</li>
+            <li>Vocational qualification with a focus on system administration & networking</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-people-group"></i> Soft Skills</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Natural team leader</li>
+            <li>Fast learner</li>
+            <li>Strong problem-solving mindset</li>
+            <li>Health-conscious and disciplined</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-heart"></i> Outside of Tech</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Football</li>
+            <li>Calisthenics</li>
+            <li>Cycling</li>
+            <li>Cooking</li>
+            <li>Reading</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="past_working_exp">
+      <h2>Experience</h2>
+
+      <h3>Junior IT & Networking – VoIP Assistant</h3>
+      <p>Industrial enterprise environment • ~30 hours</p>
       <ul>
-        <li>IT systems administration & network configuration (formal vocational training)</li>
-        <li>Enterprise VoIP systems (<a href="#past_working_exp">see more</a>)</li>
-        <li>Linux systems</li>
+        <li>Installed and cabled digital and analog VoIP desk phones across a 3-floor enterprise building</li>
+        <li>Tested network ports, verified switch connectivity, and ensured proper phone registration</li>
+        <li>Configured network switches for VoIP endpoints (VLANs / port settings)</li>
+        <li>Set up DHCP services and assigned static IP addresses</li>
+        <li>Registered devices in internal asset and IP management systems</li>
+        <li>Performed functional testing and troubleshooting of VoIP installations</li>
+        <li>Worked independently on installations after initial onboarding</li>
+        <li>Gained hands-on experience with large-scale network infrastructure and enterprise IT workflows</li>
       </ul>
-    </div>
-  </div>
 
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-code"></i> Programming</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>Python</li>
-        <li>JavaScript & Node.js</li>
-        <li>REST APIs</li>
-        <li>Bash script</li>
-        <li>MySQL</li>
-        <li>HTML & CSS</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-toolbox"></i> Tools & Environment</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>Neovim</li>
-        <li>Git & GitHub</li>
-        <li>Microsoft 365</li>
-        <li>dbForge</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-language"></i> Languages</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>Hungarian – native</li>
-        <li>English – fluent</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-graduation-cap"></i> Education</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>IT Systems & Application Operator Technician</li>
-        <li>Vocational qualification with a focus on system administration & networking</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-people-group"></i> Soft Skills</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>Natural team leader</li>
-        <li>Fast learner</li>
-        <li>Strong problem-solving mindset</li>
-        <li>Health-conscious and disciplined</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="skill-card">
-    <button class="skill-header">
-      <span><i class="fa-solid fa-heart"></i> Outside of Tech</span>
-      <i class="fa-solid fa-chevron-down"></i>
-    </button>
-    <div class="skill-content">
-      <ul>
-        <li>Football</li>
-        <li>Calisthenics</li>
-        <li>Cycling</li>
-        <li>Cooking</li>
-        <li>Reading</li>
-      </ul>
-    </div>
-  </div>
-</div>
-  <div id="past_working_exp">
-    <h2>Experience</h2>
-
-    <h3>Junior IT & Networking – VoIP Assistant</h3>
-         <p>Industrial enterprise environment • ~30 hours</p>
-            <ul>
-              <li>Installed and cabled digital and analog VoIP desk phones across a 3-floor enterprise building</li>
-              <li>Tested network ports, verified switch connectivity, and ensured proper phone registration</li>
-              <li>Configured network switches for VoIP endpoints (VLANs / port settings)</li>
-              <li>Set up DHCP services and assigned static IP addresses</li>
-              <li>Registered devices in internal asset and IP management systems</li>
-              <li>Performed functional testing and troubleshooting of VoIP installations</li>
-              <li>Worked independently on installations after initial onboarding</li>
-              <li>Gained hands-on experience with large-scale network infrastructure and enterprise IT workflows</li>
-            </ul>
-        <h3>School Events & Outreach</h3>
+      <h3>School Events & Outreach</h3>
       <p>~100–120 hours</p>
       <ul>
         <li>School representation</li>
@@ -191,26 +194,26 @@
 
       <h3>ITalent Program (2025–2026)</h3>
       <p>Advanced IT-focused educational program</p>
-  
+
       <h3>Erasmus – 3D Printing</h3>
       <ul>
         <li>3 international programs</li>
         <li>Hands-on 3D printing experience</li>
       </ul>
 
+      <h3>Community & Communication</h3>
+      <p>Library public service • 50 hours</p>
+      <ul>
+        <li>Visitor assistance</li>
+        <li>Daily operations support</li>
+      </ul>
+    </section>
 
-    <h3>Community & Communication</h3>
-    <p>Library public service • 50 hours</p>
-    <ul>
-      <li>Visitor assistance</li>
-      <li>Daily operations support</li>
-    </ul>
-  </div>
-</div>
-  <div id="footer">
-    <p>Looking for opportunities in IT - backend development and networking.</p>
+    <footer id="footer">
+      <p>Looking for opportunities in IT - backend development and networking.</p>
+    </footer>
   </div>
 
-  </body>
-<script src="script.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
