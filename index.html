@@ -15,75 +15,76 @@
 </head>
 <body>
   <div id="main">
-    <section class="hero">
-      <h2>Hi, I'm XYZ 👋</h2>
-      <p>Backend-focused developer with a strong foundation in system administration and computer networking.</p>
-      <p><strong><i class="fa-solid fa-graduation-cap"></i> Status:</strong> IT student at DEIK</p>
-      <p><strong><i class="fa-solid fa-location-dot"></i> Location:</strong> Debrecen, Hungary</p>
+      <section class="hero">
+        <h2>Hi, I'm XYZ 👋</h2>
+        <p>Backend-focused developer with a strong foundation in system administration and computer networking.</p>
+        <p><strong><i class="fa-solid fa-graduation-cap"></i> Status:</strong> IT student at DEIK</p>
+        <p><strong><i class="fa-solid fa-location-dot"></i> Location:</strong> Debrecen, Hungary</p>
 
-      <div class="contact-bar">
-        <a class="btn" href="https://github.com/WattoX00" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
-        <a class="btn" href="mailto:zoltan.korsch@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-        <a class="btn" href="https://www.linkedin.com/in/zoltan-korsch-2115193ab/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <div class="contact-bar">
+          <a class="btn" href="https://github.com/WattoX00" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+          <a class="btn" href="mailto:zoltan.korsch@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/zoltan-korsch-2115193ab/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Restaurant API</h3>
+            <a href="https://github.com/WattoX00/restaurantapi" target="_blank" class="project-link">GitHub</a>
+          </div>
+
+          <p class="project-desc">
+            Backend API for restaurant management including authentication,
+            menu handling and order processing.
+          </p>
+
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Linux Setup</h3>
+            <a href="https://github.com/WattoX00/arch-setup" target="_blank" class="project-link">GitHub</a>
+          </div>
+
+          <p class="project-desc">
+            Arch Linux automation scripts with a custom dwm configuration.
+          </p>
+
+          <div class="tech-stack">
+            <span>Bash</span>
+            <span>C</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Todol</h3>
+            <a href="https://github.com/WattoX00/todol" target="_blank" class="project-link">GitHub</a>
+          </div>
+
+          <p class="project-desc">
+            Minimal CLI-based to-do list application focused on speed and simplicity.
+          </p>
+
+          <div class="tech-stack">
+            <span>Python</span>
+          </div>
+        </article>
       </div>
-   </section>
+    </section>
 
-<section class="projects">
-  <h2>Projects</h2>
-
-  <div class="project-grid">
-
-    <article class="project-card">
-      <div class="project-header">
-        <h3>Restaurant API</h3>
-        <a href="https://github.com/WattoX00/restaurantapi" target="_blank" class="project-link">GitHub</a>
-      </div>
-
-      <p class="project-desc">
-        Backend API for restaurant management including authentication,
-        menu handling and order processing.
-      </p>
-
-      <div class="tech-stack">
-        <span>Python</span>
-        <span>FastAPI</span>
-        <span>JavaScript</span>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-header">
-        <h3>Linux Setup</h3>
-        <a href="https://github.com/WattoX00/arch-setup" target="_blank" class="project-link">GitHub</a>
-      </div>
-
-      <p class="project-desc">
-        Arch Linux automation scripts with a custom dwm configuration.
-      </p>
-
-      <div class="tech-stack">
-        <span>Bash</span>
-        <span>C</span>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-header">
-        <h3>Todol</h3>
-        <a href="https://github.com/WattoX00/todol" target="_blank" class="project-link">GitHub</a>
-      </div>
-
-      <p class="project-desc">
-        Minimal CLI-based to-do list application focused on speed and simplicity.
-      </p>
-
-      <div class="tech-stack">
-        <span>Python</span>
-      </div>
-    </article>
-
-  </div>
-</section>
+   
     <section id="skills">
       <h2>Skills</h2>
 
@@ -95,23 +96,56 @@
         <div class="skill-content">
           <ul>
             <li>IT systems administration & network configuration (formal vocational training)</li>
+            <li>Server administration (Linux & Windows)</li>
             <li>Enterprise VoIP systems (<a href="#past_working_exp">see more</a>)</li>
-            <li>Linux systems</li>
           </ul>
         </div>
       </div>
 
       <div class="skill-card">
         <button class="skill-header">
-          <span><i class="fa-solid fa-code"></i> Programming</span>
+          <span><i class="fa-solid fa-cloud"></i> DevOps & Cloud</span>
           <i class="fa-solid fa-chevron-down"></i>
         </button>
         <div class="skill-content">
           <ul>
-            <li>Python</li>
+            <li>Azure DevOps</li>
+            <li>AWS</li>
+            <li>CI/CD pipeline automation</li>
+            <li>Terraform (Infrastructure as Code)</li>
+            <li>Containerization: Podman (preferred), Docker</li>
+            <li>Monitoring & observability: Grafana</li>
+            <li>DevOps scripting: Python</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-brands fa-linux"></i> Linux & Unix Systems</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Daily Linux workstation usage</li>
+            <li>Linux server administration</li>
+            <li>Advanced Bash scripting & automation</li>
+            <li>System troubleshooting & performance tuning</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <button class="skill-header">
+          <span><i class="fa-solid fa-code"></i> Programming & Scripting</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="skill-content">
+          <ul>
+            <li>Python (primary)</li>
             <li>JavaScript & Node.js</li>
             <li>REST APIs</li>
-            <li>Bash script</li>
+            <li>Bash scripting</li>
             <li>MySQL</li>
             <li>HTML & CSS</li>
           </ul>
