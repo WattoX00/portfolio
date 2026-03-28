@@ -7,7 +7,6 @@
   --border: #1f2933;
 }
 
-/* RESET */
 *,
 *::before,
 *::after {
@@ -16,7 +15,6 @@
   padding: 0;
 }
 
-/* BASE */
 body {
   font-family: "Inter", sans-serif;
   background: linear-gradient(180deg, #020617, #0f172a);
@@ -36,7 +34,6 @@ a {
   padding: 3rem 1.5rem;
 }
 
-/* TYPOGRAPHY */
 h2,
 h3 {
   font-weight: 700;
@@ -57,7 +54,6 @@ p {
   margin-bottom: 0.75rem;
 }
 
-/* HERO */
 .hero {
   margin-bottom: 3rem;
 }
@@ -146,7 +142,6 @@ p {
   border-radius: 6px;
 }
 
-/* SKILLS */
 #skills {
   margin-top: 3rem;
 }
@@ -290,7 +285,6 @@ p {
   font-size: 0.95rem;
 }
 
-/* FOOTER */
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
